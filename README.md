@@ -18,3 +18,5 @@
 * cd reactMini
 * npm install
 * npm start
+
+### react source read
