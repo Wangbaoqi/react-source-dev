@@ -6,5 +6,5 @@ import App from './demo_lazy'
 
 const rootEl = document.getElementById("root");
 
-// ReactDOM.render(<App />, rootEl);
-ReactDOM.unstable_createRoot(rootEl).render(<App />);
+ReactDOM.render(<App />, rootEl);
+// ReactDOM.unstable_createRoot(rootEl).render(<App />);
