@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import App from "./react_api/component";
 
-import App from './demo_lazy'
+import App from './demo_hook'
 
 const rootEl = document.getElementById("root");
 
-ReactDOM.render(<App />, rootEl);
-// ReactDOM.unstable_createRoot(rootEl).render(<App />);
+// ReactDOM.render(<App />, rootEl);
+ReactDOM.unstable_createRoot(rootEl).render(<App />);

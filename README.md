@@ -5,7 +5,7 @@
 * cd react_build/node_modules/react-dom
 * npm link
 
-### demos：视频教程的调试demo
+### demos
 
 * cd demo
 * npm install
@@ -13,11 +13,11 @@
 * npm start
 * 修改index.js的引用demo文件即可
 
-### reactMini：遵循react17源码，手写react迷你项目
+### reactMini
 
 * cd reactMini
 * npm install
 * npm start
 
-### react source read hhh
+### react source read 
 

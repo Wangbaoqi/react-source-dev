@@ -3,15 +3,18 @@ import React, { useState } from "react";
 export default function App() {
   const [count, setCount] = useState(0);
   return (
-    <>
-      <h1
+    <div name={count}>
+      <p
         onClick={() => {
           // debugger;
           setCount(() => count + 1);
         }}
       >
-        <p title={count}>{count}</p> xiaochen
-      </h1>
-    </>
+        click p
+      </p>
+      <div title={count}>
+        <span>{count}</span>
+      </div>
+    </div>
   );
 }
